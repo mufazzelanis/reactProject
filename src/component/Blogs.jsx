@@ -26,7 +26,7 @@ function Blogs({ posts }) {
             />
 
             <div className="p-3">
-              <h2 className="text-sm font-semibold">
+              <h2 className="text-sm font-semibold text-gray-800">
                 {item.title}
               </h2>
             </div>
