@@ -5,6 +5,7 @@ import Blogs from '../component/Blogs'
 import IntroPost from '../component/IntroPost'
 import Globalapi from '../Services/Globalapi'
 import { GiPriceTag } from 'react-icons/gi'
+import Footer from './../component/Footer';
 
 function Home() {
 
@@ -39,7 +40,8 @@ function Home() {
       { /* Blogs */ }
       {post.length > 0 ? <Blogs posts={post} /> : null}
       { /* Footer */ }
-      {/* <Footer /> */}
+      <Footer />
+      
     </div>
   )
 }
