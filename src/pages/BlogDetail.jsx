@@ -132,16 +132,16 @@ function BlogDetail() {
               <div className="space-y-4">
                 <div>
                   <label className="block text-gray-700 font-semibold mb-2">Full Name</label>
-                  <input type="text" placeholder="John Doe" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+                  <input type="text" placeholder="Mufazzel Hossain" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                   <div>
                     <label className="block text-gray-700 font-semibold mb-2">Email</label>
-                    <input type="email" placeholder="john@example.com" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+                    <input type="email" placeholder="mufazzel@ibos.io" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
                   </div>
                   <div>
                     <label className="block text-gray-700 font-semibold mb-2">Phone</label>
-                    <input type="tel" placeholder="+1 234 567 8900" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+                    <input type="tel" placeholder="+880 9613 500 850" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
                   </div>
                 </div>
               </div>
