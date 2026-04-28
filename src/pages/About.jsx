@@ -68,21 +68,23 @@ function About() {
               <Mail className="text-indigo-600 flex-shrink-0 mt-1" size={24} />
               <div>
                 <p className="font-semibold text-gray-800 mb-1">Email</p>
-                <a href="mailto:info@example.com" className="text-indigo-600 hover:underline">info@example.com</a>
+                <a href="mailto:info@example.com" className="text-indigo-600 hover:underline">support@akijair.com</a>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <Phone className="text-indigo-600 flex-shrink-0 mt-1" size={24} />
               <div>
                 <p className="font-semibold text-gray-800 mb-1">Phone</p>
-                <a href="tel:+1234567890" className="text-indigo-600 hover:underline">+1 (234) 567-890</a>
+                <a href="tel:+1234567890" className="text-indigo-600 hover:underline">+880 9613 500 850</a>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <MapPin className="text-indigo-600 flex-shrink-0 mt-1" size={24} />
               <div>
                 <p className="font-semibold text-gray-800 mb-1">Address</p>
-                <p className="text-gray-600">123 Travel Street, NY 10001</p>
+                <p className="text-gray-600">AKIJ HOUSE, 198 BIR UTTAM MIR
+                    SHAWKAT SARAK, TEJGAON,
+                    Dhaka-1212, Bangladesh</p>
               </div>
             </div>
           </div>

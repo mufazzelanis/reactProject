@@ -58,7 +58,7 @@ function Contact() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="John Doe"
+                  placeholder="Mufazzel hossain"
                   required
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 />
@@ -71,7 +71,7 @@ function Contact() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="john@example.com"
+                  placeholder="mufazzel@ibos.io"
                   required
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 />
@@ -84,7 +84,7 @@ function Contact() {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="+1 (234) 567-8900"
+                  placeholder="+880 9613 500 850"
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 />
               </div>
@@ -135,8 +135,8 @@ function Contact() {
                   <Mail className="text-indigo-600 flex-shrink-0 mt-1" size={28} />
                   <div>
                     <h3 className="font-bold text-gray-800 mb-1">Email</h3>
-                    <p className="text-gray-600">info@example.com</p>
-                    <p className="text-gray-600">support@example.com</p>
+                    <p className="text-gray-600">info@akijair.com</p>
+                    <p className="text-gray-600">support@akijair.com</p>
                   </div>
                 </div>
               </div>
@@ -147,8 +147,7 @@ function Contact() {
                   <Phone className="text-blue-600 flex-shrink-0 mt-1" size={28} />
                   <div>
                     <h3 className="font-bold text-gray-800 mb-1">Phone</h3>
-                    <p className="text-gray-600">+1 (234) 567-8900</p>
-                    <p className="text-gray-600">+1 (234) 567-8901</p>
+                    <p className="text-gray-600">+880 9613 500 850</p>
                   </div>
                 </div>
               </div>
@@ -159,8 +158,9 @@ function Contact() {
                   <MapPin className="text-green-600 flex-shrink-0 mt-1" size={28} />
                   <div>
                     <h3 className="font-bold text-gray-800 mb-1">Address</h3>
-                    <p className="text-gray-600">123 Travel Street</p>
-                    <p className="text-gray-600">New York, NY 10001, USA</p>
+                    <p className="text-gray-600">AKIJ HOUSE, 198 BIR UTTAM MIR
+                        SHAWKAT SARAK, TEJGAON,
+                        Dhaka-1212, Bangladesh</p>
                   </div>
                 </div>
               </div>
@@ -169,9 +169,9 @@ function Contact() {
               <div className="bg-purple-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-800 mb-3">Business Hours</h3>
                 <div className="space-y-1 text-gray-600">
-                  <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                  <p>Saturday: 10:00 AM - 4:00 PM</p>
-                  <p>Sunday: Closed</p>
+                  <p>Sunday - Thrusday: 9:00 AM - 6:00 PM</p>
+                  <p>Saturday: Closed</p>
+                  <p>Friday: Closed</p>
                 </div>
               </div>
             </div>
